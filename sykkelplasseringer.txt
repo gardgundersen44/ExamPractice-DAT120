@@ -1,0 +1,6 @@
+1;Brevig;2021-02-21;23
+2;Mosvatnet;2021-02-21;93
+3;Tjensvollkrysset;2021-02-21;499
+1;Brevig;2021-02-22;19
+2;Mosvatnet;2021-02-22;105
+3;Tjensvollkrysset;2021-02-22;521
