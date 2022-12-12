@@ -1,0 +1,2 @@
+Stasjon;Total nedboer; Hoeyeste middeltemperatur; Respektiv dato; Lavest middeltemperatur; Respektiv dato
+Stavanger - Vaaland;21.4;7.5;02.01.2022;0;30.12.2021

@@ -1,9 +1,9 @@
 Navn;Stasjon;Tid(norsk normaltid);Middeltemperatur (døgn);Nedbør (døgn)
-Stavanger;MO224;30.12.2021;7,3;1,6
-Sola;SL123;31.12.2021;6,9;6,2
-Tananger;OP334;01.01.2022;6,5;0,3
-Rikavika;TY444;02.01.2022;7,5;2,8
-Sandes;SY882;03.01.2022;4,9;3
-Molde;SL334;04.01.2022;3;5,3
-Drammen;SO223;05.01.2022;1,6;2,2
-Oslo;SN5532;06.01.2022;0,4;0
+Stavanger - Våland;SN44640;30.12.2021;7,3;1,6
+Stavanger - Våland;SN44640;31.12.2021;6,9;6,2
+Stavanger - Våland;SN44640;01.01.2022;6,5;0,3
+Stavanger - Våland;SN44640;02.01.2022;7,5;2,8
+Stavanger - Våland;SN44640;03.01.2022;4,9;3
+Stavanger - Våland;SN44640;04.01.2022;3;5,3
+Stavanger - Våland;SN44640;05.01.2022;1,6;2,2
+Stavanger - Våland;SN44640;06.01.2022;0,4;0
