@@ -19,14 +19,9 @@ def plot_graph(list_x_axis, list_y_axis):
     plt.title("Average temperature in India (from 1901 to 2017)")
     plt.xlabel("Years after 1901")
     plt.ylabel("Average temperature in degrees celcius")
-
     plt.plot(list_x_axis, list_y_axis, 'r')
     plt.show()
 
-
-# Creates a file that stores data stores data from above
-weather_file = open("weather_per_year.csv", "w")
-weather_file.write("Year;Highest temperature;Date of highest temperature;Lowest temperature; Date of lowest temperature")
 with open("Weather Data in India from 1901 to 2017.csv", encoding="UTF8") as file:
     next(file)  # Skips first line
     for data in file:
@@ -53,10 +48,22 @@ with open("Weather Data in India from 1901 to 2017.csv", encoding="UTF8") as fil
             month["November"] = float(line[12])
             month["December"] = float(line[13])
             current_temperature[line[1]] = month
+            all_temperatures.append(current_temperature)
         except ValueError:
             continue
 
-        all_temperatures.append(current_temperature)
+        # Finds max- and minimum temperature per year
+        for i in current_temperature:
+            temperature = current_temperature[line[1]].get(i)
+            if highest_temp < temperature:
+                highest_temp = temperature
+
+            if lowest_temp > temperature:
+                lowest_temp = temperature
+
+        print(f"Highest temperature: {highest_temp}")
+        print(f"Lowest temperature: {lowest_temp}")
+
 
 
 
