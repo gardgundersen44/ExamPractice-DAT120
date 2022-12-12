@@ -3,6 +3,6 @@ increment = int(input("Oppgi differanse: "))
 folge_lengde = int(input("Oppgi lengde på følgen: "))
 
 
-for i in range(start_verdi, folge_lengde+1):
+for i in range(folge_lengde):
    print(start_verdi)
    start_verdi += increment
