@@ -1,0 +1,6 @@
+Navn;Total nedboer;Hoyest middeltemperatur;Respektiv dato;Lavest middeltemperatur;Respektiv dato
+Sola;2.8;18.3;28.06.2008;7.3;30.12.2021
+Stavanger;12.2;7.3;13.06.2019;4.3;12.04.2002
+Sandnes;8.3;4.2;01.03.2010;4.2;01.03.2010
+Risavika;4.2;5.6;10.12.2003;5.6;10.12.2003
+Hinna;2.2;3.4;12.10.2011;3.4;12.10.2011

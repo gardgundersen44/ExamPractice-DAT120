@@ -13,7 +13,7 @@ def sjekk_rom(list, oppgitt_kapasitet):
         if rom.kapasitet == oppgitt_kapasitet:
             rom_med_samme_kapasitet.append(rom)
     return rom_med_samme_kapasitet
-''
+
 def print_liste(liste):
     for j in liste:
         print(j)

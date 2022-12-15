@@ -67,6 +67,6 @@ def sok_etter_stasjon():
     if kode not in stasjon:
         print("Fant ingen værstasjon på oppgitt kode i filen!")
 
-if __name__ == "__main__":
+if __name__ == "_ _main__":
     analyse_stasjon("vaer_data.txt")
 
